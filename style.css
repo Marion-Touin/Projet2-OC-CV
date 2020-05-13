@@ -42,45 +42,6 @@ body{
     padding-bottom: 100px;
     padding-top: 40px;
 }
-/*Partie droite*/
-.nom{
-    font-size: 50px;
-    text-transform: uppercase;
-    margin-top: 125px;
-    margin-left: 50px;
-}
-.dev{
-    border-bottom: 3px solid #FFC107 ;
-}
-.métier{
-    font-size: 25px;
-    padding-bottom: 115px;
-    margin-left: 50px;
-}
-.titreleft{
-    font-size: 35px;
-    text-transform: uppercase;
-    padding-left: 100px;
-    border-bottom: 3px solid #FFC107;
-}
-.block{
-    display: flex;
-}
-.date{
-    font-size: 20px;
-    width: 25%;
-    margin-left: 5%;
-}
-.description{
-    text-align: justify;
-    margin-right: 50px;
-    font-size: 20px;
-    width: 50%;
-}
-h3{
-    text-transform: uppercase;
-    margin-top: 0;
-}
 .fa-gamepad:before {
     border: 3px solid black;
     font-size: 60px;
@@ -100,6 +61,56 @@ h3{
     font-size: 60px;
     padding: 10px;
     border-radius: 50%;
+}
+/*Partie droite*/
+.nom{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 125px;
+}
+.prenom{
+    color: #FFC107;
+}
+.identite
+{
+    padding-left: 10%;
+}
+.dev{
+    border-bottom: 3px solid #FFC107 ;
+}
+.métier{
+    font-size: 25px;
+    padding-bottom: 115px;
+}
+.titreleft{
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FFC107;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.block{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+.point{
+    font-size: 20px;
+    width: 1.5s%;
+}
+.date{
+    width: 35%;
+}
+.description{
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 20px;
+    width: 50%;
+}
+h3{
+    text-transform: uppercase;
+    margin-top: 0;
 }
 .fa-graduation-cap:before {
     margin-right: 50px;
@@ -122,4 +133,7 @@ h3{
     font-size: 5px;
     color: #FFC107;
     margin-right: 20px;
+}
+.reco{
+    margin-right: 35%;
 }
