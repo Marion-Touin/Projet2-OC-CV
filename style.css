@@ -1,15 +1,15 @@
+body{
+    margin: 0;
+}
 .page{
     display: flex;
-    flex-wrap: wrap;
 }
 .containerleft{
     width: 30%;
-    float: left;
     background-color:#FFC107;
 }
 .containerright{
-    width: 70%;
-    float: right;
+    width: 70%;  
 }
 /*Partie gauche*/
 .img{
@@ -42,17 +42,15 @@
     padding-bottom: 100px;
     padding-top: 40px;
 }
-.icone{
-    font-size: 60px;
-    text-align: center;
-    border-style: solid;
-}
 /*Partie droite*/
 .nom{
     font-size: 50px;
     text-transform: uppercase;
     margin-top: 125px;
     margin-left: 50px;
+}
+.dev{
+    border-bottom: 3px solid #FFC107 ;
 }
 .métier{
     font-size: 25px;
@@ -65,11 +63,10 @@
     padding-left: 100px;
     border-bottom: 3px solid #FFC107;
 }
-li{
+.block{
     display: flex;
 }
 .date{
-    text-align: left;
     margin-right: 40px;
     font-size: 20px;
 }
@@ -80,4 +77,42 @@ li{
 }
 h3{
     text-transform: uppercase;
+    margin-top: 0;
+}
+.fa-gamepad:before {
+    border: 3px solid black;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.fa-hiking:before {
+    border: 3px solid black;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.fa-caravan:before {
+    border: 3px solid black;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-graduation-cap:before {
+    margin-right: 50px;
+    color: #FFC107;
+}
+.fa-briefcase:before {
+    margin-right: 50px;
+    color: #FFC107;
+}
+.fa-pencil-alt:before {
+    margin-right: 50px;
+    color: #FFC107;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
