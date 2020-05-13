@@ -67,13 +67,15 @@ body{
     display: flex;
 }
 .date{
-    margin-right: 40px;
     font-size: 20px;
+    width: 25%;
+    margin-left: 5%;
 }
 .description{
     text-align: justify;
     margin-right: 50px;
     font-size: 20px;
+    width: 50%;
 }
 h3{
     text-transform: uppercase;
@@ -115,4 +117,9 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+.fa-circle:before {
+    font-size: 5px;
+    color: #FFC107;
+    margin-right: 20px;
 }
