@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin:0;
 }
 .page{
     display: flex;
@@ -12,18 +12,22 @@ body{
     width: 70%;  
 }
 /*Partie gauche*/
+.photo{
+    padding-top: 30px;;
+}
 .img{
-    width: 250px;
-    height: 250px;
-    border-radius: 125px;
-    display: block;
-    margin: 50px auto;
+    width:200px;
+    height:200px;
+    border-radius:100%;
+    border:solid 1px #FFC107; 
+    display: flex;
+    margin:auto;
 }
 .blockcontact{
     margin-bottom: 20%;
 }
 .blockpropos{
-    margin-bottom: 110%;
+    margin-bottom: 100%;
 }
 .titre{
     font-size: 30px;
@@ -77,7 +81,7 @@ body{
 .nom{
     font-size: 50px;
     text-transform: uppercase;
-    margin-top: 125px;
+    margin-top: 80px;
 }
 .prenom{
     color: #FFC107;
@@ -91,7 +95,7 @@ body{
 }
 .métier{
     font-size: 25px;
-    padding-bottom: 115px;
+    margin-bottom: 75px;
 }
 /*partie formation et expérience professionnelle*/
 .titreleft{
@@ -167,7 +171,7 @@ h3{
 }
 .name{
     text-transform: uppercase;
-    font-size: 15pxpx;
+    font-size: 15px;
     font-weight: bold;
 }
 .function{
@@ -184,4 +188,127 @@ h3{
 }
 .reco{
     margin-bottom: 50px;
+}
+@media all and (max-width: 1024px)
+{
+    .page{
+        display: block;
+    }
+    .containerleft{
+        background-color:#FFC107;
+        width: 100%;
+    }
+    .titre{
+        margin-bottom: 20px;
+    }
+    .contact{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 0; 
+    }
+    .blockcontact {
+        margin-bottom: 30px;
+    }
+    .blockpropos {
+        margin-bottom: 30px;
+    }
+    .propos{
+        padding-bottom: 40px;
+    }
+    .containerright{
+        width: 100%;  
+    }
+    .titreleft{
+        justify-content: center;
+    }
+    .identite{
+        text-align: center;
+        padding-left: 0;
+    }
+    .loisir{
+        padding-bottom: 50px;
+    }
+    .nom{
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .métier{
+        padding-bottom: 0;
+        margin-bottom: 60px;;
+    }
+    .recommandation{
+        margin-left: 8%;
+    }
+}
+@media all and (max-width: 767px)
+{
+    .contact{
+        font-size: 20px;
+    }
+    .fa-gamepad:before {
+        font-size: 35px;
+    }
+    .fa-hiking:before {
+        font-size: 35px;
+    }
+    .fa-caravan:before {
+        font-size: 35px;
+    }
+    .nom{
+        font-size: 35px;
+    }
+    .métier{
+        font-size: 20px;
+    }
+    .fa-graduation-cap:before {
+        margin-right: 20px;
+    }
+    .fa-briefcase:before {
+        margin-right: 20px;
+    }
+    .fa-pencil-alt:before {
+        margin-right: 20px;
+    }
+    ul{
+        padding: 0;
+    }
+    .date{
+        width: 30%;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 14px;
+    }
+    .desc{
+        font-size: 15px;
+    }
+    body{
+        margin:0;
+    }
+    .titreleft{
+        font-size: 26px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .description{
+        margin-right: 20px;
+    }
+    .point{
+        width: 6%;
+    }
+    .recommandation{
+        margin-left: 0;
+    }
+    .function{
+        font-size: 13px;
+    }
+    .phone{
+        font-size: 10px;
+    }
+    .mail{
+        font-size: 10px;
+    }
 }
