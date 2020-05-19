@@ -51,7 +51,7 @@ body{
     font-size: 60px;
     padding: 10px;
     border-radius: 50%;
-    margin-right: 50px;
+    margin-right: 25px;
 }
 .fa-caravan:before{
     margin: 0;
@@ -267,6 +267,7 @@ h3{
     }
     .icones:before{
         margin-right: 15px;
+        font-size: 30px;
     }
     ul{
         padding: 0;
