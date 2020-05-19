@@ -212,7 +212,7 @@ h3{
         width: 100%;  
     }
     .titreleft{
-        justify-content: center;
+       text-align: center;
     }
     .identite{
         text-align: center;
