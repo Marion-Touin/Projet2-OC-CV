@@ -13,14 +13,12 @@ body{
 }
 /*Partie gauche*/
 .photo{
-    padding-top: 30px;
-    text-align: center;
-}
-.img{
+    border-radius: 100%;
+    border: 3px solid #8C9EFF;
+    overflow: hidden;
     width: 200px;
     height: 200px;
-    border-radius: 100%;
-    border: solid 1px #8C9EFF;
+    margin: 10px auto;
 }
 .blockpropos{
     margin-bottom: 160%;
@@ -37,29 +35,30 @@ body{
     font-size: 20px;
     margin-left: 70px;
     padding-bottom: 10px;
+    margin-bottom: 0;
 }
 .propos{
     font-size: 20px;
     text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 300px;
     padding-top: 40px;
 }
 .monicone:before{
-    border: 3px solid black;
-    font-size: 60px;
-    padding: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
+    border: 2px solid black;
+    padding: 20px;
     margin-right: 25px;
+    font-size: x-large;
+}
+.icone{
+    font-size: 30px;
+    margin: 50px auto;
+    text-align: center;
 }
 .fa-caravan:before{
     margin: 0;
-}
-.icone{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
 }
 /*Partie nom et métier*/
 .nom{
@@ -162,7 +161,7 @@ h3{
 .reco{
     margin-bottom: 50px;
 }
-.image{
+.photo2{
     display: none;
 }
 @media all and (max-width: 1024px)
@@ -174,21 +173,20 @@ h3{
         background-color:#8C9EFF;
         width: 100%;
     }
-    .img{
+    .photo{
         display: none;
     }
     .image{
-        display: flex;
+        border-radius: 100%;
+        border: 3px solid #8C9EFF;
+        overflow: hidden;
         width: 200px;
         height: 200px;
-        border-radius: 100%;
-        border: solid 1px #8C9EFF;
-        margin: 0 auto;
-        padding: 30px;
+        margin: 10px auto;
     }
-    .photo{
-        padding-top: 0;
-        background-color:#8C9EFF;
+    .photo2{
+        display: flex;
+        background-color: #8C9EFF;
     }
     .titre{
         margin-bottom: 20px;
@@ -201,6 +199,7 @@ h3{
     }
     .blockcontact {
         margin-bottom: 30px;
+        text-align: center;
     }
     .blockpropos {
         margin-bottom: 30px;
@@ -310,5 +309,8 @@ h3{
     }
     .loisir{
         padding-bottom: 0;
+    }
+    .propos{
+        margin: 25px 35px;
     }
 }
