@@ -6,95 +6,116 @@ body{
 }
 .containerleft{
     width: 30%;
-    background-color:#8C9EFF;
+    background-color:#FDD835;
 }
 .containerright{
-    width: 70%;  
+    width: 70%; 
+    margin-left: 8%; 
 }
 /*Partie gauche*/
 .photo{
     border-radius: 100%;
-    border: 3px solid #8C9EFF;
+    border: 3px solid #FDD835;
     overflow: hidden;
     width: 200px;
     height: 200px;
-    margin: 10px auto;
+    margin: 30px auto;
 }
-.blockpropos{
-    margin-bottom: 110%;
+/*section contact*/
+.blockcontact{
+    padding-bottom: 25px;
 }
 .titre{
     font-size: 30px;
     text-transform: uppercase;
-    background-color: #FFF59D;
+    background-color: #424242;
     text-align: center;
     padding: 10px 0;
-    color: #8C9EFF;
+    color: #FDD835;
 }
 .contact{
-    font-size: 20px;
-    margin-left: 70px;
-    padding-bottom: 10px;
-    margin-bottom: 0;
+    list-style-type: none;
+    margin-left: 15%;
+    font-size: 25px;
+    padding: 0;
+}
+.desc-contact{
+    margin-bottom: 25px;
+}
+/*section à propos de moi*/
+.blockpropos{
+    padding-bottom: 50%;
 }
 .propos{
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-bottom: 300px;
+    margin: 0 15%;
     padding-top: 40px;
 }
-.monicone:before{
-    border-radius: 100%;
-    border: 2px solid black;
-    padding: 20px;
-    margin-right: 25px;
-    font-size: x-large;
-}
+/*section loisir*/
 .icone{
-    font-size: 30px;
-    margin: 50px auto;
-    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
 }
-.fa-caravan:before{
-    margin: 0;
+.monicone:before{
+    border: 2px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
 /*Partie nom et métier*/
-.nom{
-    font-size: 50px;
-    text-transform: uppercase;
-    margin-top: 80px;
-}
-.prenom{
-    color: #8C9EFF;
+h1,h2{
+    margin: 0;
 }
 .identite{
-    padding-left: 10%;
+    padding: 8% 0;
 }
-.dev{
-    border-bottom: 3px solid #8C9EFF ;
+.nom{
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.prenom{
+    color: #FDD835;
 }
 .métier{
-    font-size: 25px;
-    margin-bottom: 75px;
+    font-size: 30px;
+}
+.dev{
+    border-bottom: 3px solid #FDD835;
 }
 /*partie formation et expérience professionnelle*/
 .titreleft{
-    font-size: 30px;
+    font-size: 35px;
     text-transform: uppercase;
-    border-bottom: 2px solid #8C9EFF;
-    margin-left: 10%;
+    border-bottom: 2px solid #FDD835;
     margin-right: 10%;
     padding-bottom: 10px;
 }
-h3{
+h4{
     text-transform: uppercase;
+    font-size: 27px;
+    margin: 0;
+    padding-bottom: 2%;
+}
+h5{
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+.desc{
+    margin: 0;
+    font-size: 22px;
 }
 .block{
     display: flex;
-    margin-left: 8%;
-    margin-top: 4%;
+    margin: 6% 0;
 }
 .point{
     font-size: 10px;
@@ -102,7 +123,10 @@ h3{
 }
 .date{
     width: 35%;
-    font-size: 20px;
+}
+.date2{
+    margin: 0;
+    font-size: 22px;
 }
 .description{
     text-align: justify;
@@ -112,54 +136,43 @@ h3{
 }
 .icones:before{
     margin-right: 50px;
-    color: #8C9EFF;
+    color: #FDD835;
     font-size: 35px;
 }
 .fa-circle:before {
-    color: #8C9EFF;
+    color: #FDD835;
     margin-right: 20px;
 }
 .cercle{
-    margin-right: 1.5%;
+    margin-right: 2%;
     font-size: 15px;
-    color: #8C9EFF;
-}
-/*partie recommandation*/
-.name{
-    margin-right: 35%;
-}
-h4{
-    margin-top: 0px;
-    margin-bottom: 3px;
-}
-h3{
-    margin-bottom: 5px;
-    margin-top: 5px;
+    color: #FDD835;
 }
 /*partie recommandation*/
 .recommandation{
     width: 50%;
-    margin-left: 2%;
 }
 .name{
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
 }
 .function{
     font-weight: bold;
-    margin-bottom: 2px;
+    margin: 0;
+    font-size: 20px;
 }
 .phone{
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 2px;
+    font-size: 20px;
 }
 .mail{
     margin-top: 5px;
-}
-.reco{
-    margin-bottom: 50px;
+    font-size: 20px;
 }
 .photo2{
     display: none;
@@ -170,15 +183,29 @@ h3{
         display: block;
     }
     .containerleft{
-        background-color:#8C9EFF;
+        background-color:#FDD835;
+        width: 100%;
+        order: 2;
+    }
+    .containerright{
+        margin-left: 0;
+        order: 1;
         width: 100%;
     }
+    .identite{
+        text-align: center;
+        padding: 0;
+    }
+    .titreleft{
+        text-align: center;
+        margin-left: 10%;
+     }
     .photo{
         display: none;
     }
     .image{
         border-radius: 100%;
-        border: 3px solid #8C9EFF;
+        border: 3px solid #FDD835;
         overflow: hidden;
         width: 200px;
         height: 200px;
@@ -186,7 +213,11 @@ h3{
     }
     .photo2{
         display: flex;
-        background-color: #8C9EFF;
+        background-color: #FDD835;
+    }
+    .block{
+        margin-top: 6%;
+        margin-left: 10%;
     }
     .titre{
         margin-bottom: 20px;
@@ -203,19 +234,10 @@ h3{
     }
     .blockpropos {
         margin-bottom: 30px;
+        padding: 0;
     }
     .propos{
         padding-bottom: 40px;
-    }
-    .containerright{
-        width: 100%;  
-    }
-    .titreleft{
-       text-align: center;
-    }
-    .identite{
-        text-align: center;
-        padding-left: 0;
     }
     .nom{
         margin-top: 40px;
@@ -235,15 +257,12 @@ h3{
         display: flex;
         flex-direction: column;
     }
-    .containerleft{
-        order: 2;
-    }
-    .containerright{
-        order: 1;
-    }
 }
 @media all and (max-width: 767px)
 {
+    .page{
+        width: 100%;
+    }
     .img{
         width: 150px;
         height: 150px;
@@ -275,7 +294,7 @@ h3{
         width: 30%;
         font-size: 12px;
     }
-    h3,h4{
+    h4,h5{
         font-size: 15px;
     }
     .desc{
@@ -298,6 +317,9 @@ h3{
     .recommandation{
         margin-left: 0;
     }
+    .name{
+        font-size: 15px;
+    }
     .function{
         font-size: 13px;
     }
@@ -311,6 +333,10 @@ h3{
         padding-bottom: 0;
     }
     .propos{
-        margin: 25px 35px;
+        margin: 0 35px;
+        font-size: 20px;
+    }
+    .date2{
+        font-size: 15px;
     }
 }
