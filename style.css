@@ -7,10 +7,11 @@ body{
 .containerleft{
     width: 30%;
     background-color:#FDD835;
+    padding-bottom: 20px;
 }
 .containerright{
     width: 70%; 
-    margin-left: 8%; 
+    margin-left: 8%;
 }
 /*Partie gauche*/
 .photo{
@@ -53,6 +54,9 @@ body{
     padding-top: 40px;
 }
 /*section loisir*/
+.loisir{
+    padding-bottom: 30px;;
+}
 .icone{
     font-size: 35px;
     display: flex;
@@ -74,7 +78,7 @@ h1,h2{
     margin: 0;
 }
 .identite{
-    padding: 8% 0;
+    padding: 6% 0;
 }
 .nom{
     font-size: 60px;
@@ -115,7 +119,7 @@ h5{
 }
 .block{
     display: flex;
-    margin: 6% 0;
+    margin-top: 5%;
 }
 .point{
     font-size: 10px;
