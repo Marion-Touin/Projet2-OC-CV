@@ -156,6 +156,9 @@ i{
     font-size: 15px;
     color: #FDD835;
 }
+.icones::before{
+    margin: 10px;
+}
 /*partie recommandation*/
 .recommandation{
     width: 50%;
